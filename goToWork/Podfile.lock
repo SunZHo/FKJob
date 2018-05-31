@@ -36,6 +36,7 @@ PODS:
   - FDFullscreenPopGesture (1.1)
   - FSCalendar (2.7.9)
   - IQKeyboardManager (4.0.13)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.15.3)
@@ -45,7 +46,6 @@ PODS:
   - PGPickerView (1.2.5)
   - PPBadgeView (2.0.0)
   - RegexKitLite (4.0)
-  - SDAutoLayout (2.2.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -83,6 +83,7 @@ DEPENDENCIES:
   - FDFullscreenPopGesture (~> 1.1)
   - FSCalendar (~> 2.7.9)
   - IQKeyboardManager (~> 4.0.8)
+  - Masonry
   - MBProgressHUD
   - MJExtension
   - MJRefresh (~> 3.1.12)
@@ -90,7 +91,6 @@ DEPENDENCIES:
   - PGDatePicker
   - PPBadgeView
   - RegexKitLite (~> 4.0)
-  - SDAutoLayout
   - SDWebImage (~> 4.0.0)
   - STPickerView (= 2.4)
   - SVProgressHUD (~> 2.2.2)
@@ -116,6 +116,7 @@ SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
@@ -124,7 +125,6 @@ SPEC CHECKSUMS:
   PGPickerView: 9108fb2b52ba5ec40cccddb1d480fd7ab7b1bb0b
   PPBadgeView: 2448a69475d313641f0f53dc283e183ecefeeab8
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
-  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   STPickerView: d0e234f230f45bd720a6739d0ae9fbddf038958b
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
@@ -138,6 +138,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 9abc1985c6b66e89184e25d52a1b8cecddd11944
+PODFILE CHECKSUM: 0e1ea1fb9ccaa5c9d3db5df05e5a2a3d16fc7aea
 
 COCOAPODS: 1.4.0

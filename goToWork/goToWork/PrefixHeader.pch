@@ -1,0 +1,98 @@
+//
+//  PrefixHeader.pch
+//  goToWork
+//
+//  Created by <15>帝云科技 on 2018/5/28.
+//  Copyright © 2018年 青岛卧龙科技. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NetApi.h"
+#import "Define.h"
+
+
+#pragma mark - 系统
+#import <CommonCrypto/CommonDigest.h>
+
+
+#pragma mark - 第三方
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "IQKeyboardManager.h"
+#import "YYCache.h"
+#import "CYLTabBarControllerConfig.h"
+#import <CYLTabBarController/CYLTabBarController.h>
+#import <WRNavigationBar/WRCustomNavigationBar.h>
+#import <WRNavigationBar.h>
+#import "SDAutoLayout.h"
+#import <SVProgressHUD.h>
+#import <STPickerSingle.h>
+#import <STPickerDate.h>
+#import "SDCycleScrollView.h"
+#import <PPBadgeView.h>
+#import "UIImageView+WebCache.h"
+#import "BRPickerViewMacro.h"
+#import "BRPickerView.h"
+#import <UIScrollView+EmptyDataSet.h>
+
+
+#pragma mark - 分类
+#import "AppDelegate+UMeng.h"
+#import "NSDate+Extend.h"
+#import "NSDate+Extension.h"
+#import "NSObject+ALiHUD.h"
+#import "UIImage+shadowImg.h"
+#import "UIView+Tap.h"
+
+
+#pragma mark - 工具
+#import "AppCommon.h"
+#import "UserInfoCache.h"
+#import "AppCache.h"
+#import "AppNetworking.h"
+#import "BaseTableView.h"
+#import "AppUIKit.h"
+#import "BDImagePicker.h"
+#import "WLClearCacheTool.h"
+
+
+//#import "FormCell.h"
+//#import "FormCellModel.h"
+//#import "FKGPopOption.h"
+#import "FSScrollContentView.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 友盟分享
+
+#define ChannelName         @"App Store" //渠道名称
+#define UMSocialAppKey      @"5ade7e77b27b0a2c160002ec"
+#define WechatAppKey        @"wxd69d4baf16dbc338" // 微信 appID
+#define WechatAppSecret     @"a13755ed53d77efb94cdbe808cd70113"
+#define WeChatRedirectURL   @""
+#define QQAppKey            @"1106821867"    //  第三方平台的appKey（QQ平台为appID）
+#define QQAppSecrect        @"ckBBvqcb7JRKFn7D" // 第三方平台的appSecret（QQ平台为appKey）
+#define QQRedirectURL       @""
+#define SinaAppKey          @""
+#define SinaAppSecrect      @""
+#define SinaRedirectURL     @"http://sns.whalecloud.com/sina2/callback"
+
+#endif /* PrefixHeader_pch */
